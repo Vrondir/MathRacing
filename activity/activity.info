@@ -4,3 +4,4 @@ activity_version = 1
 bundle_id = org.sugarlabs.MathRacingActivity
 exec = sugar-activity-web
 icon = activity-icon
+repository = https://github.com/Vrondir/MathRacing

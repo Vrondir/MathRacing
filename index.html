@@ -8,6 +8,7 @@
 	<link rel="stylesheet" media="not screen and (device-width: 1200px) and (device-height: 900px)" href="lib/sugar-web/graphics/css/sugar-96dpi.css">
 	<link rel="stylesheet" media="screen and (device-width: 1200px) and (device-height: 900px)" href="lib/sugar-web/graphics/css/sugar-200dpi.css">
 	<link rel="stylesheet" href="css/activity.css">
+	<link rel="prefetch" type="application/l10n" href="data.ini">
 	<script data-main="js/loader" src="lib/require.js"></script>
 </head>
 
@@ -26,28 +27,28 @@
 	<div id="canvas">
 		<!-- Replace this message with your own content -->
 		<fieldset>
-			<div id="wrong-answers">Wrong answers: 0 / 3</div>
+			<div id="wrong-answers"></div>
 			<span id="question"></span>
-			<input type="number" name="answer" id="answer" placeholder="Type in your answer" autofocus>
-			<input type="button" value="Check!" id="check">
+			<input type="number" name="answer" id="answer" placeholder="" autofocus>
+			<input type="button" value="" id="check">
 		</fieldset>
 		<div id="player-car">
-			<h1>Your car</h1>
+			<h1></h1>
 			<div class="lane">
 				<img class="object car move-right" src="activity/cars/Porsche-911-brut.svg" width="300">
 			</div>
 		</div>
 		<hr>
 		<div id="ai-car">
-			<h1>AI car</h1>
+			<h1></h1>
 			<div class="lane">
 				<img class="object car move-right" src="activity/cars/FERRARI-TESTARROSA.svg" width="300">
 			</div>
 		</div>
 		<div id="win-screen">
-			<h1 class="text-win-lose" id="text-win-lose">You Won!</h1>
+			<h1 id="text-win-lose"></h1>
 			<div class="button-center">
-				<button type="button" id="button-reload">Again?</button>
+				<button type="button" id="button-reload"></button>
 			</div>
 		</div>
 	</div>

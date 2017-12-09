@@ -74,7 +74,7 @@ fieldset > *{
   transform: translate(-50%, -50%);
 }
 
-.text-win-lose {
+#text-win-lose {
   color: white;
   position: absolute;
   top: 30%;
