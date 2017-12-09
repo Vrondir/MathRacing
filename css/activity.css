@@ -1,0 +1,83 @@
+#main-toolbar #activity-button {
+  background-image: url(../activity/activity-icon.svg);
+}
+
+#player-car {
+  padding-top: 200px;
+}
+
+#answer {
+  margin-top: 20px;
+}
+
+fieldset {
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+fieldset > *{
+
+  font-size: 20px;
+}
+
+#ai-car h1, #player-car h1 {
+  margin: 40px auto;
+  text-align: center;
+  text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(0, 0, 0, 0.8);
+  color: #333;
+  opacity: 0.4;
+  font: 700 80px 'Bitter';
+}
+
+.car {
+  position: relative;
+  left: 0%;
+  transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
+  /** Chrome & Safari **/
+  -moz-transition: all 2s ease-in-out;
+  /** Firefox **/
+  -o-transition: all 2s ease-in-out;
+  /** Opera **/
+}
+
+.lane {
+  margin-right: 300px;
+  border-right: 5px solid white;
+}
+
+#win-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+}
+
+#button-reload {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 100%;
+}
+
+.button-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-win-lose {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
