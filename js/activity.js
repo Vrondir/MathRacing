@@ -124,6 +124,7 @@ define(["sugar-web/activity/activity", "webL10n", "sugar-web/datastore", "sugar-
   // Manipulate the DOM only when it is ready.
   require(['domReady!'], function(doc) {
 
+    retry();
     // Initialize the activity.
     activity.setup();
 
