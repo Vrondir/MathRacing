@@ -125,8 +125,6 @@ define(["sugar-web/activity/activity", "webL10n", "sugar-web/datastore", "sugar-
   require(['domReady!'], function(doc) {
 
     retry();
-    // Initialize the activity.
-    activity.setup();
 
     document.getElementById("button-reload").addEventListener("click", retry);
     document.getElementById("check").addEventListener("click", checkResult);
@@ -137,6 +135,8 @@ define(["sugar-web/activity/activity", "webL10n", "sugar-web/datastore", "sugar-
         document.getElementById("answer").value = '';
       }
     });
+    // Initialize the activity.
+    activity.setup();
   });
 
 });
